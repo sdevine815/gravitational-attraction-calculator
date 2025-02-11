@@ -1,0 +1,33 @@
+:root {
+  --potatoColor: #000;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#myMap {
+    width: 50vw;
+    height: 50vh;
+    position: fixed;
+    top: 20%;
+    margin: auto;
+  border: 4px solid var(--potatoColor);
+}
+
+.weights {
+    margin: auto;
+}
+
+h1 {
+    color: var(--potatoColor);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3%;
+}
